@@ -1,0 +1,9 @@
+#edit-actions {
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.view-filters .form--inline .form-actions {
+	clear: none;
+}

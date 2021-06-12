@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Visual styles for Bartik's page-title component.
+ */
+
+.page-title {
+	font-size: 4em;
+	line-height: 1em;
+	margin-top: 10px;
+	font-weight: bolder;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #371f00;
+    color: #ced8cd;
+    opacity: 0.35;
+}
+

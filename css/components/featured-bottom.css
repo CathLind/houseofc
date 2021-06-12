@@ -1,0 +1,72 @@
+/**
+* @file
+* Visual styles for Bartik's featured bottom component.
+*/
+
+.featured-bottom {
+	border-top: 1px solid #e7e7e7;
+	background: rgb(231, 245, 231);
+}
+.featured-bottom .region {
+  padding: 0 20px;
+  padding-top: 30px;
+}
+
+@media all and (min-width: 560px) {
+  .featured-bottom .region {
+    position: relative;
+    float: left; /* LTR */
+    box-sizing: border-box;
+    width: 25%;
+    padding: 20px 15px 30px;
+  }
+  [dir="rtl"] .featured-bottom .region {
+    float: right;
+  }
+}
+
+@media all and (min-width: 851px) {
+  .featured-bottom .region {
+    padding: 0 20px;
+  }
+}
+
+.featured-bottom h2 {
+	text-align: center;
+	color: #006000;
+	font-size: 1.6em;
+	font-weight: 700;
+}
+.featured-bottom .block {
+	border-bottom: 1px solid #b9d5b9;
+	min-height: 26em;
+}
+.featured-bottom .block:last-child {
+  border-bottom: none;
+}
+.featured-bottom ul,
+.featured-bottom ol {
+  padding-left: 0;
+}
+.featured-bottom ul li,
+.featured-bottom ol li {
+  list-style: none;
+}
+.featured-bottom input:not(.form-submit) {
+  width: 185px;
+}
+.region-featured-bottom-third .feed-icon {
+  float: right;
+}
+.region-featured-bottom-second .block-system-powered-by-block {
+  text-align: center;
+}
+
+.featured-bottom img {
+	padding: 2px;
+}
+
+.view-hoc-frontpage .field-content {
+	font-size: 0.8em;
+	line-height: 1em;
+}

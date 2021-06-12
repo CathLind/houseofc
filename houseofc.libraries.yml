@@ -1,0 +1,27 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/houseofc.css: {}
+      css/elements.css: {}
+      css/components/taxonomy-term.css: {}
+      css/node-image-field-fix.css: {}
+      css/components/tour.theme.css: {}
+      css/components/page-title.css: {}
+      css/components/sidebar.css: {}
+      css/components/site-footer.css: {}
+      css/components/field.css: {}
+      css/components/node.css: {}
+      css/components/featured-bottom.css: {}
+      css/components/add-bottom.css: {}
+      css/components/almost-bottom.css: {}
+      css/components/similar-bottom.css: {}
+      css/components/form.css: {}
+      css/components/inline-form.css: {}
+      css/style.css: {}
+  js:
+      js/houseofc.js: {}
+fonts:
+   css:
+      theme:
+        '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto&display=swap&subset=latin-ext': { type: external, minified: true }

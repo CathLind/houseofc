@@ -1,0 +1,65 @@
+/* The Add block after the feature block and before the footer. */
+
+.add-bottom {
+	border-top: 1px solid #e7e7e7;
+}
+
+.add-bottom .region {
+  padding: 0 20px;
+  padding-top: 30px;
+}
+
+@media all and (min-width: 560px) {
+  .add-bottom .region {
+    position: relative;
+    float: left; /* LTR */
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 20px 15px 30px;
+  }
+  [dir="rtl"] .featured-bottom .region {
+    float: right;
+  }
+}
+
+@media all and (min-width: 851px) {
+  .add-bottom .region {
+    padding: 0 20px;
+  }
+}
+
+.add-bottom h2 {
+	text-align: center;
+	color: #006000;
+	font-size: 1.6em;
+	font-weight: 700;
+}
+.add-bottom .block {
+	border-bottom: 1px solid #b9d5b9;
+}
+.add-bottom .block:last-child {
+  border-bottom: none;
+}
+.add-bottom ul,
+.add-bottom ol {
+  padding-left: 0;
+}
+.add-bottom ul li,
+.add-bottom ol li {
+  list-style: none;
+}
+.add-bottom input:not(.form-submit) {
+  width: 185px;
+}
+
+.region-add-bottom-second .block-system-powered-by-block {
+  text-align: center;
+}
+
+.add-bottom img {
+	padding: 2px;
+}
+
+.add-bottom a {
+	border: none;
+}

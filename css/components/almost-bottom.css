@@ -1,0 +1,76 @@
+
+
+.almost-bottom {
+	border-top: 1px solid #e7e7e7;
+	background: rgb(197, 230, 196);
+	margin-top: 1em;
+}
+.almost-bottom .region {
+  padding: 0 20px;
+  padding-top: 30px;
+}
+
+@media all and (min-width: 560px) {
+  .almost-bottom .region {
+    position: relative;
+    float: left; /* LTR */
+    box-sizing: border-box;
+    width: 25%;
+    padding: 20px 15px 30px;
+  }
+  [dir="rtl"] .almost-bottom .region {
+    float: right;
+  }
+}
+
+@media all and (min-width: 851px) {
+  .almost-bottom .region {
+    padding: 0 20px;
+  }
+}
+
+.almost-bottom h2 {
+	text-align: center;
+	color: #006000;
+	font-size: 1.6em;
+	font-weight: 700;
+}
+.almost-bottom .block {
+	border-bottom: 1px solid #b9d5b9;
+	min-height: 26em;
+}
+.almost-bottom .block:last-child {
+  border-bottom: none;
+}
+.almost-bottom ul,
+.almost-bottom ol {
+  padding-left: 0;
+}
+.almost-bottom ul li,
+.almost-bottom ol li {
+  list-style: none;
+}
+.almost-bottom input:not(.form-submit) {
+  width: 185px;
+}
+.region-almost-bottom-third .feed-icon {
+  float: right;
+}
+.region-almost-bottom-second .block-system-powered-by-block {
+  text-align: center;
+}
+
+.almost-bottom img {
+	padding: 2px;
+}
+
+.view-hoc-frontpage .field-content {
+	font-size: 0.8em;
+	line-height: 1em;
+}
+
+
+.slide__description .field-content {
+	font-size: 1em;
+	line-height: 1.2em;
+}

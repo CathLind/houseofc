@@ -1,0 +1,42 @@
+h5, .heading-e {
+	letter-spacing: 0;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: inherit;
+	padding-top: 1.5em;
+}
+
+/* Blockquotes */
+
+.paragraph.paragraph--type--quote.paragraph--view-mode--default {
+	max-width: 40%;
+	float: left;
+}
+
+.node__content blockquote::after {
+	content: "\201D";
+	vertical-align: -0.45em;
+	color: #c3e6c2;
+	font-size: 4em;
+	line-height: 0.1em;
+}
+
+.node__content blockquote::before {
+	margin-right: 0.2em;
+	content: "\201C";
+	vertical-align: -0.4em;
+	color: #c3e6c2;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-left: -0.5em;
+}
+
+.node__content blockquote {
+	margin: 1.5em 10px 1.5em 35px;
+	padding: 0.5em 10px 0.5em 10px;
+	border-left: none;
+	background: none;
+	font-style: italic;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+}

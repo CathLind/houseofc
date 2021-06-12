@@ -1,0 +1,25 @@
+/**
+ * @file
+ * Visual styles for Bartik's field components.
+ */
+
+.field--type-entity-reference {
+  margin: 0 0 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.field--type-image img,
+.field--name-user-picture img {
+  margin: 0 0 1em;
+}
+
+.field--name-field-tags {
+  margin: 0 0 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.view-hoc-read-more .field--type-image img {
+	margin-left: 5%;
+}

@@ -1,0 +1,36 @@
+
+/* Book block front page */
+
+#block-views-block-hoc-books-block-1 .views-col {
+	border: 1px solid #bfbfbf;
+	margin: 5px;
+	padding: 10px;
+	max-width: 29%;
+	min-height: 403px;
+}
+
+#block-views-block-hoc-books-block-1 .views-field.views-field-title {
+	padding-left: 0px;
+	font-size: small;
+}
+
+#block-views-block-hoc-books-block-1 .views-field.views-field-field-bookcover {
+	float: left;
+	padding: 5px;
+	border: 1px solid black;
+	margin-right: 10px;
+	padding-bottom: 0px;
+}
+
+#block-views-block-hoc-books-block-1 p {
+	font-size: smaller;
+}
+
+iframe {
+	border: none;
+}
+
+.paragraph.paragraph--type--link.paragraph--view-mode--default {
+	float: right;
+	margin-top: -40px;
+}

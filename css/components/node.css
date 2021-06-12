@@ -1,0 +1,31 @@
+/**
+ * @file
+ * Visual styles for Bartik's node component.
+ */
+
+.field--name-user-picture img {
+	float: left;
+	margin: 1px 1px 0 0;
+	border-radius: 50%;
+	padding: 2px;
+	border-color: #a3a2a2;
+	max-width: 40px;
+	display: none;
+}
+
+.node__meta .field--name-user-picture img {
+	margin: 1px 1px 0 0;
+}
+
+.node__meta {
+	margin-bottom: 0px;
+	color: #68696b;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	padding-top: 0px;
+}
+
+.node__content {
+	margin-top: 20px;
+	font-size: 1.071em;
+}
