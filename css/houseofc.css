@@ -286,6 +286,7 @@ article.post .post-date .day {
 	border-radius: 10px;
 	line-height: 1em;
 	box-shadow: 2px -2px 15px #001a004d;
+	max-height: 2em;
 }
 
 #block-latestblogposts p {
